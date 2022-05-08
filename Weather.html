@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Weather Report</title>
+
+    </head>
+    <body>
+        <center><h2>Weather Report</h2></center>
+        <div class="container">
+            <form method="post" action="http://localhost:8080/Myproject/Ex_2_WeatherServlet">
+                <center> 
+                <label for="city">Select City</label>
+                
+                <select name="cityname" id="cityname">
+                    <option value="Choose">Choose</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Karur">Karur</option>
+                    <option value="Tirupur">Tirupur</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Trichy">Trichy</option>
+                    <option value="Vellore">Vellore</option>
+                    <option value="Tanjore">Tanjore</option>
+                    <option value="Erode">Erode</option>     
+                    <option value="Coimbatore">Coimbatore</option>
+                   
+                </select>
+                
+                <br><br>
+                
+                <input type="submit" value="Get Weather status">
+                </center>    
+            </form>
+        </div>
+    </body>
+</html>
